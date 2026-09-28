@@ -8,7 +8,9 @@ Compose stack, anything — a uniform way to be deployed and controlled, without
 the fleet needing to know a single thing about your stack.
 
 The fleet injects runtime variables into the environment (`PORT`,
-`DATABASE_URL`) and calls `./bin/run` to deploy. Everything project-specific —
+`DATABASE_URL`, and — when the cluster serves apps at their own subdomain —
+`FLEET_APP_HOST` / `FLEET_APP_URL`, the hostname and `https://` origin the app is
+browsed at) and calls `./bin/run` to deploy. Everything project-specific —
 how to install, build, and start your app — lives in **one file: `fleet.conf`**.
 That is the only file you edit per project.
 
