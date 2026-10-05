@@ -1,6 +1,6 @@
 # SvelteKit template
 
-Provisioned from [`Qode-Platform/fleet-template-v1`](https://github.com/Qode-Platform/fleet-template-v1) — the fleet
+Provisioned from [`Qode-Fleet-Control/fleet-template-v1`](https://github.com/Qode-Fleet-Control/fleet-template-v1) — the fleet
 lifecycle contract (`bin/`, `fleet.conf`, deploy workflows) with a
 SvelteKit starter laid on top.
 
